@@ -1,0 +1,8 @@
+services:
+  digital-meter-reader:
+    build: .
+    ports:
+      - "8000:8000"
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"
+    command: ["python3", "server.py"]

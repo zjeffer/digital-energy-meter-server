@@ -1,0 +1,127 @@
+{
+  "0-0:1.0.0": {
+    "name": "Timestamp",
+    "type": "",
+    "unit": ""
+  },
+  "0-0:96.3.10": {
+    "name": "Switch electricity",
+    "type": "",
+    "unit": ""
+  },
+  "0-1:24.4.0": {
+    "name": "Switch gas",
+    "type": "",
+    "unit": ""
+  },
+  "0-0:96.1.1": {
+    "name": "Meter serial electricity",
+    "type": "",
+    "unit": ""
+  },
+  "0-1:96.1.1": {
+    "name": "Meter serial gas",
+    "type": "",
+    "unit": ""
+  },
+  "0-0:96.14.0": {
+    "name": "Current rate (1=day,2=night)",
+    "type": "",
+    "unit": ""
+  },
+  "1-0:1.8.1": {
+    "name": "Rate 1 (day) - total consumption",
+    "type": "energy",
+    "unit": "kWh"
+  },
+  "1-0:1.8.2": {
+    "name": "Rate 2 (night) - total consumption",
+    "type": "energy",
+    "unit": "kWh"
+  },
+  "1-0:2.8.1": {
+    "name": "Rate 1 (day) - total production",
+    "type": "energy",
+    "unit": "kWh"
+  },
+  "1-0:2.8.2": {
+    "name": "Rate 2 (night) - total production",
+    "type": "energy",
+    "unit": "kWh"
+  },
+  "1-0:21.7.0": {
+    "name": "L1 consumption",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:41.7.0": {
+    "name": "L2 consumption",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:61.7.0": {
+    "name": "L3 consumption",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:1.7.0": {
+    "name": "All phases consumption",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:22.7.0": {
+    "name": "L1 production",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:42.7.0": {
+    "name": "L2 production",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:62.7.0": {
+    "name": "L3 production",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:2.7.0": {
+    "name": "All phases production",
+    "type": "energy",
+    "unit": "kW"
+  },
+  "1-0:32.7.0": {
+    "name": "L1 voltage",
+    "type": "energy",
+    "unit": "V"
+  },
+  "1-0:52.7.0": {
+    "name": "L2 voltage",
+    "type": "energy",
+    "unit": "V"
+  },
+  "1-0:72.7.0": {
+    "name": "L3 voltage",
+    "type": "energy",
+    "unit": "V"
+  },
+  "1-0:31.7.0": {
+    "name": "L1 current",
+    "type": "energy",
+    "unit": "A"
+  },
+  "1-0:51.7.0": {
+    "name": "L2 current",
+    "type": "energy",
+    "unit": "A"
+  },
+  "1-0:71.7.0": {
+    "name": "L3 current",
+    "type": "energy",
+    "unit": "A"
+  },
+  "0-1:24.2.3": {
+    "name": "Gas consumption",
+    "type": "gas",
+    "unit": "m\u00b3"
+  }
+}
