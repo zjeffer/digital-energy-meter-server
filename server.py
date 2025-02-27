@@ -36,6 +36,13 @@ def read_meter():
     logger.debug("Reading meter...")
     return reader.read()
 
+@app.get("/ping")
+def ping():
+    """
+    Check if the server is alive and properly responding
+    """
+    logger.debug("Received a ping, responding...")
+    return "pong"
 
 @app.get("/")
 def root():
